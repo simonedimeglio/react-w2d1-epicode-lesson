@@ -117,4 +117,14 @@ Adesso il nostro obiettivo è quello di capire come fare chiamate AJAX in React 
 
 ### Prepariamoci alla prima chiamata API in React (della nostra vita).
 
-Preparazione alla chiamata API:
+Modifichiamo la funzione **handleSubmit** per inviare i dati del form a un endpoint API simulato (chi siamo noi per non tornare dal nostro carissimo amico JSONPlaceholder?).
+
+![ray-so-export-7](https://github.com/simonedimeglio/react-w2d1-epicode-lesson/assets/78272736/d56e8aad-7141-427e-ab38-e5e36ac5260a)
+
+### Aggiungiamo nella cartella "components" un nuovo componente "ListaPrenotazioni.jsx" per stampare a schermo la lista delle prenotazioni
+
+![ray-so-export-8](https://github.com/simonedimeglio/react-w2d1-epicode-lesson/assets/78272736/fe41ca73-da3a-4737-b9d7-b7bcda874c86)
+
+### Importiamo il nostro componente ListaPrenotazioni.jsx in App.jsx
+
+Adesso possiamo testare tutte le funzionalità della nostra app.

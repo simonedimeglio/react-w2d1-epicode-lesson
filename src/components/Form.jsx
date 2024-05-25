@@ -24,12 +24,25 @@ function Form() {
   }
 
   // Funzione per gestire il submit del form
-  function handleSubmit(e) {
-    // Previene il comportamento predefinito del form (ricaricare la pagina)
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Stampa i dati del form nella console
-    console.log("Dati inviati dal form:", formData);
-  }
+    try {
+      const response = await fetch(
+        "https://jsonplaceholder.typicode.com/posts",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
+      const result = await response.json();
+      console.log("Success:", result);
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
 
   // Renderizza il form
   return (
