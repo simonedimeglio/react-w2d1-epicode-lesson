@@ -110,3 +110,11 @@ Seguendo questi passaggi logici, abbiamo creato un componente React che gestisce
 ### NB: Adesso importiamo il nostro componente in App.jsx per poterlo vedere nel browser!
 
 Probabilmente l'avrete già fatto, ma "Repetita iuvant"!
+
+## Parte 2 - Chiamate AJAX (Fetch) in React
+
+Adesso il nostro obiettivo è quello di capire come fare chiamate AJAX in React usando fetch, e come collegare queste chiamate allo stato del componente per mostrare dati nell'interfaccia utente.
+
+### Prepariamoci alla prima chiamata API in React (della nostra vita).
+
+Preparazione alla chiamata API:
